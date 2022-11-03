@@ -5,7 +5,7 @@ import java.util.Date;
 public class Prestamo {
     //Atributos
     private Integer id;
-    private String libro;
+    private  Libro.isbn libro;
     private String usuario;
     private Date fecha_pres;
     private Date fecha_devo;
