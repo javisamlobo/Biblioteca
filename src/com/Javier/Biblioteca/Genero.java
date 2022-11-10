@@ -15,16 +15,16 @@ public class Genero implements temas{
 
     @Override
     public Integer getId() {
-        return null;
+        return id;
     }
 
     @Override
     public String getNombre() {
-        return null;
+        return nombre;
     }
 
     @Override
     public String getDescripcion() {
-        return null;
+        return descripcion;
     }
 }
