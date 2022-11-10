@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Libro Quijote = new Libro();
-        Quijote.setIsbn(4548989787454);
+        Quijote.setIsbn(4548989784);
         Quijote.setTitulo("El Quijote");
         Quijote.setAutor("Miguel de Cervantes");
         Quijote.setGenero("Historica");
