@@ -7,7 +7,7 @@ public class Main {
         Quijote.setIsbn(454784);
         Quijote.setTitulo("El Quijote");
         Quijote.setAutor("Miguel de Cervantes");
-        Quijote.setGenero("Historica");
+        Quijote.addGenero();
         Quijote.setFecha_publi("10-15-1500");
         System.out.println(Quijote.getIsbn());
         System.out.println(Quijote.getTitulo());
