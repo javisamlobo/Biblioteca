@@ -17,8 +17,12 @@ public class Libro {
     public void setTitulo(String titulo) { this.titulo = titulo;}
     public String getAutor() { return autor;}
     public void setAutor(String autor) { this.autor = autor;}
-    public List<Genero> getGenero() { return this.genero;}
-    public void addGenero() { this.genero.add(genero);}
     public String getFecha_publi() { return fecha_publi;}
     public void setFecha_publi(String fecha_publi) { this.fecha_publi = fecha_publi;}
+    public List<Genero> getGenero() { 
+        return this.genero;
+    }
+    public void addGenero() { 
+        this.genero.add(genero);
+    }
 }
