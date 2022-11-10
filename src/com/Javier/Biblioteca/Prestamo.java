@@ -1,7 +1,5 @@
 package com.Javier.Biblioteca;
 
-import java.util.Date;
-
 public class Prestamo {
     //Atributos
     private Integer id;
@@ -23,18 +21,18 @@ public class Prestamo {
     public Libro getLibro(){
         return isbn;
     }
-    public void setLibro(Libro isbn){
+    public void setLibro(){
         this.isbn = isbn;
     }
 
     public Usuario getUsuario() {
         return dni;
     }
-    public void setUsuario(Usuario dni){
+    public void setUsuario(){
         this.dni = dni;
     }
     public String getFecha_pres(){
-        return fecha_pres
+        return fecha_pres;
     }
 
     public void setFecha_pres(String fecha_pres) {
